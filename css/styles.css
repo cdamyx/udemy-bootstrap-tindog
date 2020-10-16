@@ -15,6 +15,17 @@ h1 {
     padding-bottom: 20px;
 }
 
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -61,21 +72,43 @@ h1 {
     color: #ff4c68;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .filler-section {
     text-align: center;
 }
 
 .filler-para {
-    font-family: 'Montserrat', sans-serif;
     color: #8f8f8f;
 }
 
 .filler-box {
     padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-log {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
