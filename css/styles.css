@@ -27,7 +27,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -55,12 +55,29 @@ h3 {
 .iphone {
     transform: rotate(20deg);
     width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 /*Features Section*/
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
 .style-icons {
