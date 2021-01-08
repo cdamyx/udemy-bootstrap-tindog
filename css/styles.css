@@ -37,6 +37,19 @@ h3 {
     padding: 7% 15%;
 }
 
+/*Sections*/
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section {
+    background-color: #fff;
+
+}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -61,13 +74,9 @@ h3 {
 
 /*Title Section*/
 
-#title {
-    background-color: #ff4c68;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 .iphone {
@@ -93,13 +102,11 @@ h3 {
 /*Features Section*/
 
 #features {
-    padding: 7% 15%;
-    background-color: white;
     position: relative;
 }
 
 .feature-title {
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .style-icons {
@@ -123,7 +130,6 @@ h3 {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -166,14 +172,6 @@ h3 {
     padding: 3% 2%;
 }
 
-/* CTA */
-
-#cta {
-    background-color: #ff4c68;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    padding: 7% 15%;
-}
 
 #footer {
     padding: 7% 15%;
